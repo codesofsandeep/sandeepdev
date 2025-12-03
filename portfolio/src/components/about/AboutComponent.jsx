@@ -90,7 +90,7 @@ const AboutComponent = () => {
         {/* 🧠 Header Section (Uses CardMotion) */}
         <CardMotion
           delay={0.1}
-          className="bg-white/80 backdrop-blur-xl rounded-xl border border-midcolor p-8 md:p-10 lg:col-span-2"
+          className="backdrop-blur-md rounded-xl border border-[0.5px]  p-8 md:p-10 lg:col-span-2"
         >
           <div className="flex flex-col justify-center h-full">
             <div className="flex items-center gap-3 mb-6 border rounded-2xl p-2 border-solid">
@@ -159,7 +159,7 @@ const AboutComponent = () => {
         {/* 🚀 Journey (Uses CardMotion) */}
         <CardMotion
           delay={0.3}
-          className="bg-white/80 backdrop-blur-xl rounded-xl border border-midcolor p-6"
+          className="backdrop-blur-xl border border-[0.5px] rounded-xl b p-6"
         >
           <div className="flex items-center mb-6">
             <Rocket className="w-6 h-6 mr-3 text-purple-600" />
@@ -198,7 +198,7 @@ const AboutComponent = () => {
         {/* 🎓 Education (Uses CardMotion) */}
         <CardMotion
           delay={0.4}
-          className="bg-white/80 backdrop-blur-xl rounded-xl border border-midcolor p-6"
+          className="backdrop-blur-xl border border-[0.5px] rounded-xl  p-6"
         >
           <div className="flex items-center mb-4">
             <BookOpen className="w-6 h-6 mr-3 text-green-600" />
@@ -231,7 +231,7 @@ const AboutComponent = () => {
         {/* 🎨 Interests (Uses CardMotion) */}
         <CardMotion
           delay={0.5}
-          className="bg-white/80 backdrop-blur-xl rounded-xl border border-midcolor p-6"
+          className=" backdrop-blur-xl border border-[0.5px] rounded-xl  p-6"
         >
           <div className="flex items-center mb-4">
             <Compass className="w-6 h-6 mr-3 text-pink-600" />
@@ -261,7 +261,7 @@ const AboutComponent = () => {
         {/* 🔥 Learning (Uses CardMotion) */}
         <CardMotion
           delay={0.6}
-          className="bg-white/80 backdrop-blur-xl rounded-xl border border-midcolor p-6 lg:col-span-2"
+          className=" backdrop-blur-xl rounded-xl border border-[0.5px] p-6 lg:col-span-2"
         >
           <div className="flex items-center mb-6">
             <Search className="w-6 h-6 mr-3 text-orange-600" />

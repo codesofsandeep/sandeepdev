@@ -81,7 +81,7 @@ const Services = () => {
     const IconComponent = service.icon;
     return (
       <motion.div
-        className="border border-solid rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group bg-white/80 backdrop-blur-md"
+        className="border border-[0.5px] rounded-2xl p-6 hover:shadow-xl transition-all duration-300 groupbackdrop-blur-md"
       >
         <div
           className={`w-14 h-14 rounded-2xl border flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}

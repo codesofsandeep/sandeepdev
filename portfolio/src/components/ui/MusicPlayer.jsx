@@ -209,6 +209,7 @@ const MusicPlayer = () => {
 
   return (
     <div className="relative w-full max-w-sm h-[29rem] rounded-2xl overflow-hidden border border-midcolor hover:shadow-2xl transition-all duration-500">
+    
       <audio ref={audioRef} src={tracks[currentTrack].src} preload="metadata" />
 
       {/* Album Cover */}

@@ -76,7 +76,7 @@ const ContactComponent = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="border rounded-2xl p-6 text-center bg-white/80 backdrop-blur-md"
+            className="border border-[0.5px] rounded-2xl p-6 text-centerbackdrop-blur-md"
           >
             <Mail className="w-12 h-12 text-solid mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-solid mb-3">Email Me</h3>
@@ -109,7 +109,7 @@ const ContactComponent = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: "easeOut" }}
-            className="border rounded-2xl p-6 bg-white/80 backdrop-blur-md"
+            className="border border-[0.5px] rounded-2xl p-6  backdrop-blur-md"
           >
             <h3 className="text-xl font-semibold text-solid mb-6 text-center">
               Connect With Me

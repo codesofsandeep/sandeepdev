@@ -114,7 +114,7 @@ function ProjectComponent() {
   return (
     <section
       id="projects"
-      className="mb-6 sm sm:py-15 px-1 sm:px-6 lg:px-8 bg-background relative"
+      className="mb-6 sm sm:py-15 px-1 sm:px-6 lg:px-8 border border-[0.5px] rounded-2xl relative"
     >
       {/* Project Preview Image */}
       <AnimatePresence>
