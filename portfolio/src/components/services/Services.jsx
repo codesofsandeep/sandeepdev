@@ -25,9 +25,10 @@ const Services = () => {
         "Creating secure, efficient, and scalable backend solutions with RESTful APIs.",
       features: [
         "Node.js / Express.js",
-        "MongoDB",
-        "Authentication",
-        "Error Handling",
+        "Django (Python)",
+        "MongoDB / MySQL",
+        "Authentication & Authorization",
+        "Error Handling & Middlewares"
       ],
       color: "from-green-500 to-emerald-500",
     },
