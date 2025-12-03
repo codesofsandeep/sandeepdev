@@ -153,9 +153,9 @@ const MusicPlayer = () => {
   const audioRef = useRef(null);
 
   const tracks = [
-    { id: 1, title: "Olha Mensagem", cover: "/images/pain.jpeg", src: "/music/pain.mp3" },
+    { id: 1, title: "Veki Veki", cover: "/images/veki-veki.png", src: "/music/veki.mp3" },
     { id: 2, title: "Hotline", cover: "/images/hotline.jpeg", src: "/music/hotline.mp3" },
-    { id: 3, title: "Veki Veki", cover: "/images/veki-veki.png", src: "/music/veki.mp3" },
+    { id: 3, title: "Olha Mensagem", cover: "/images/pain.jpeg", src: "/music/pain.mp3" },
   ];
 
   // Handle audio loading + ended
