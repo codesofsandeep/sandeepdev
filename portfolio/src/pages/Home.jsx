@@ -152,7 +152,7 @@ function Home() {
             </li>
             <li>
               <a
-                href="https://shorturl.at/1H90r"
+                href="https://www.linkedin.com/in/sandeep-rajput-ab2a40284/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-[#0A66C2] transition-all duration-300 transform hover:scale-110"
