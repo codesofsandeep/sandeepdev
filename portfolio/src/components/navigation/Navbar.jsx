@@ -26,7 +26,7 @@ const Navbar = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://shorturl.at/1H90r",
+      url: "https://www.linkedin.com/in/sandeep-rajput-ab2a40284/",
       icon: FiLinkedin,
     },
     {
